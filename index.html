@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <form id="tg" class="telegram_form">
+      <input name="name" type="text" placeholder="name" />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        minlength="6"
+        maxlength="26"
+        required
+      />
+
+      <button type="submit" class="send_btn">Send</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./js/send_form.js" type="module"></script>
+  </body>
+</html>

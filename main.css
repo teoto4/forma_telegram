@@ -1,0 +1,11 @@
+.telegram_form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  input {
+    padding: 10px 5px;
+  }
+  .send_btn {
+    padding: 10px 5px;
+  }
+}
